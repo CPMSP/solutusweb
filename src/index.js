@@ -4,10 +4,25 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import grey from "@material-ui/core/colors/grey";
+
+const theme = createMuiTheme({
+	palette: {
+		primary: {
+			main: grey[900],
+		},
+		secondary: {
+			main: grey[50],
+		},
+	},
+});
 
 ReactDOM.render(
 	<BrowserRouter>
-		<App />
+		<ThemeProvider theme={theme}>
+			<App />
+		</ThemeProvider>
 	</BrowserRouter>,
 	document.getElementById("root")
 );

@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
-import Landing from "./components/Landing";
-import Main from "./components/Main";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
-import NotFound from "./components/NotFound";
+import Landing from "./pages/Landing";
+import Main from "./pages/Main";
+import Projects from "./pages/Projects";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 
 function App() {
 	return (
