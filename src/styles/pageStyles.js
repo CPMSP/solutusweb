@@ -83,7 +83,7 @@ export const useStyles = makeStyles((theme) => ({
 		marginTop: '2rem'
 	},
 	projectImage: {
-		width: '50vw'
+		width: '80%'
 	},
 	projectButtons: {
 		marginTop: '2rem'
