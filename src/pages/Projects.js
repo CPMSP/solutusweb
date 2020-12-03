@@ -31,7 +31,8 @@ export default function Projects() {
 						<Typography className={classes.projectDescriptions}>
 							React Colors as learned from Colt Steele's Modern
 							React Bootcamp on Udemy. Click the image to see the
-							project.
+							project. Please note that these are free servers,
+							and take a few moments to load.
 						</Typography>
 						<Button className={classes.projectButtons}>
 							<a
@@ -59,7 +60,8 @@ export default function Projects() {
 						<Typography className={classes.projectDescriptions}>
 							This was my progress through Colt Steele's Web
 							Development Bootcamp on Udemy. Click the image to
-							see the project.
+							see the project. Again, please note that these are
+							free servers, and take a few moments to load.
 						</Typography>
 						<Button className={classes.projectButtons}>
 							<a
