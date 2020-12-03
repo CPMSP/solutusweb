@@ -16,7 +16,7 @@ export default function NotFound() {
 					</Typography>
 				</Box>
 				<Box mt={2}>
-					<Typography>Solutus LLC</Typography>
+					<Typography className={classes.footer}>Solutus LLC</Typography>
 				</Box>
 			</Container>
 		</div>

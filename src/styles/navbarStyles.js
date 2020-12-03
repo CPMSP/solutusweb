@@ -7,7 +7,6 @@ export const useStyles = makeStyles({
 		position: "sticky",
 	},
 	menuButton: {
-		marginRight: "1rem",
 		color: "inherit",
 	},
 	title: {
