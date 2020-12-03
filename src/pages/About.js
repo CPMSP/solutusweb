@@ -69,7 +69,7 @@ export default function About() {
 					</Typography>
 					<Typography className={classes.header}>
 						Work to make the future state better than the present
-						state
+						state.
 					</Typography>
 					<Typography>
 						Business does not have a winner and loser, there is no
