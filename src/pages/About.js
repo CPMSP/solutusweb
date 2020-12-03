@@ -68,8 +68,7 @@ export default function About() {
 						better than their competition -- instead they strive to
 					</Typography>
 					<Typography className={classes.header}>
-						Work to make the future state better than the present
-						state.
+						be better tomorrow than they are today.
 					</Typography>
 					<Typography>
 						Business does not have a winner and loser, there is no
