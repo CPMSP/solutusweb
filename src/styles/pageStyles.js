@@ -38,7 +38,8 @@ export const useStyles = makeStyles((theme) => ({
 		fontSize: '4rem'
 	},
 	container: {
-		backgroundColor: '#e9ebee'
+		backgroundColor: '#e9ebee',
+		maxWidth: '1000px'
 	},
 	boxes: {
 		backgroundColor: '#f5f5f5',
