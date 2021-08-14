@@ -24,7 +24,7 @@ export default function Main() {
 						<span className={classes.hypetag}>Vision</span>
 					</Typography>
 					<img
-						src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
+						src="https://images.unsplash.com/photo-1561825618-a26f85c50bf4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
 						width="50%"
 						alt="unlocked"
 						className={classes.mainImage}
