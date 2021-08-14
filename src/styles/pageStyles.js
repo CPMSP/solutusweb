@@ -16,7 +16,7 @@ export const useStyles = makeStyles((theme) => ({
 		alignItems: 'center',
 		alignText: 'center',
 		backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(
-			'https://cdn.pixabay.com/photo/2018/07/14/11/33/network-3537401_960_720.jpg'
+			'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80'
 		)`,
 		backgroundSize: 'cover',
 		backgroundPosition: 'center center',
