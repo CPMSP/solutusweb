@@ -23,11 +23,11 @@ export default function Contact() {
 					<hr />
 					<Typography className={classes.addressLabels}>
 						<a
-							href="mailto:solutusmsp@gmail.com"
+							href="mailto:cpeterson@solutusllc.com"
 							target="_top"
 							className={classes.contactPoints}
 						>
-							(@) solutusmsp@gmail.com
+							(@) cpeterson@solutusllc.com
 						</a>
 					</Typography>
 					<Typography className={classes.addressLabels}>
