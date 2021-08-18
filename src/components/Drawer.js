@@ -12,11 +12,21 @@ import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
 	list: {
-		width: 250
+		width: 150,
+		height: '100%',
+		color: 'white',
+		backgroundColor: 'black'
 	},
 	listItem: {
 		color: 'inherit',
-		textDecoration: 'none'
+		textDecoration: 'none',
+		width: '100%',
+		padding: '1rem',
+		'&:hover': {
+			background: 'grey',
+			color: 'white',
+			borderRadius: '1.25rem'
+		}
 	},
 	fullList: {
 		width: 'auto'

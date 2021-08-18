@@ -1,17 +1,17 @@
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles({
 	nav: {
-		marginBottom: "2rem",
-		color: "primary",
-		position: "sticky",
+		marginBottom: '2rem',
+		color: 'primary',
+		position: 'sticky'
 	},
 	menuButton: {
-		color: "inherit",
+		color: 'inherit'
 	},
 	title: {
 		flexGrow: 1,
-		display: "flex",
-		justifyContent: "flex-start",
-	},
+		display: 'flex',
+		justifyContent: 'flex-start'
+	}
 });
