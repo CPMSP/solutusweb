@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
 	list: {
-		width: 150,
+		width: 'auto',
 		height: '100%',
 		color: 'white',
 		backgroundColor: 'black'
