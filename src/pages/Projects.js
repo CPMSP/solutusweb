@@ -22,12 +22,18 @@ export default function Projects() {
         </Box>
         <Box className={classes.boxes}>
           <Typography className={classes.projectDescriptions}>
-            An ongoing partner from mid 2021 has been Grey Duct Technologies. I
-            was a contractor to help build this site in Gatsby / React JS, with
-            social plugins, a contact form, custom theming, newsletter support,
-            and so much more. I am now the ongoing maintainer when GDT needs
-            updates or changes - most recently a tracking pixel for marketing
-            campaigns.
+            An ongoing partner from mid 2021 has been Grey Duct Technologies.{" "}
+            <a
+              style={{ textDecoration: "none", color: "black" }}
+              href="https://stargazerllc.com"
+            >
+              I was a contractor with a company called Stargazer LLC
+            </a>{" "}
+            to help build this site in Gatsby / React JS, with social plugins, a
+            contact form, custom theming, newsletter support, and so much more.
+            I am now the ongoing maintainer when GDT needs updates or changes -
+            most recently a tracking pixel for marketing campaigns. Thank you to
+            Jason and his team for their support!
             <Typography className={classes.projectDescriptions}>
               Please feel free to click on the box below to learn more about a
               fantastic partner at Grey Duct Technologies, and see their site.
@@ -55,10 +61,12 @@ export default function Projects() {
             weren't dead links and that their catalog was shoppable for
             customers. I also helped in ensuring that shipping and taxation
             rates were accurate, inventory threshold levels were adequate,
-            Square booking tie-ins were functional, and more.
+            Square booking tie-ins were functional, and more. I am grateful to
+            Andi and her crew for the partnership!
             <Typography className={classes.projectDescriptions}>
-              Click on the picture to see the site and book an Esthetician's
-              appointment with Barefaced Esthetic Studio in Golden Valley!
+              Click on the picture to see the site and book a superior
+              Esthetician's appointment with Barefaced Esthetic Studio in Golden
+              Valley! You won't find better.
             </Typography>
             <Button className={classes.projectButtons}>
               <a
