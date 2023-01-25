@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Box, Typography, Button } from "@material-ui/core";
 import Navbar from "../components/Navbar";
 import { useStyles } from "../styles/pageStyles";
-import reactcolors from "../public/reactcolors.png";
+import qma from "../public/qmahome.png";
 import gdt from "../public/gdt.png";
 import barefaced from "../public/barefaced.png";
 
@@ -40,7 +40,7 @@ export default function Projects() {
               >
                 <img
                   className={classes.projectImage}
-                  src={reactcolors}
+                  src={qma}
                   alt="quantum martial arts"
                 />
               </a>
