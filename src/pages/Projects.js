@@ -3,7 +3,6 @@ import { Container, Box, Typography, Button } from "@material-ui/core";
 import Navbar from "../components/Navbar";
 import { useStyles } from "../styles/pageStyles";
 import reactcolors from "../public/reactcolors.png";
-import yelpcamp from "../public/yelpcamp.jpg";
 import gdt from "../public/gdt.png";
 import barefaced from "../public/barefaced.png";
 
@@ -105,34 +104,6 @@ export default function Projects() {
                   className={classes.projectImage}
                   src={reactcolors}
                   alt="quantum martial arts"
-                />
-              </a>
-            </Button>
-          </Typography>
-        </Box>
-        <Box className={classes.boxes}>
-          <Typography className={classes.projectDescriptions}>
-            Here is the first project I completed on my journey into Web
-            Development. It is best described as a "Yelp" clone for campgrounds.
-            It gave me a solid foundation of the fundamentals of Full - Stack
-            development, with RESTful Routing, ejs templating, Bootstrap,
-            authentication with Passport.js, and database integration. Hosted on
-            Heroku for your viewing pleasure.
-            <Typography className={classes.projectDescriptions}>
-              This was my progress through Colt Steele's Web Development
-              Bootcamp on Udemy. Click the image to see the project. Again,
-              please note that these are free servers, and take a few moments to
-              load.
-            </Typography>
-            <Button className={classes.projectButtons}>
-              <a
-                className={classes.projectLinks}
-                href="https://morning-dusk-93596.herokuapp.com/"
-              >
-                <img
-                  className={classes.projectImage}
-                  src={yelpcamp}
-                  alt="yelpcamp project"
                 />
               </a>
             </Button>
