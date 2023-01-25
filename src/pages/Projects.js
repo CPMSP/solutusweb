@@ -27,13 +27,13 @@ export default function Projects() {
               style={{ textDecoration: "none", color: "black" }}
               href="https://stargazerllc.com"
             >
-              I was a contractor with a company called Stargazer LLC
+              As a contractor with a company called Stargazer LLC
             </a>{" "}
-            to help build this site in Gatsby / React JS, with social plugins, a
-            contact form, custom theming, newsletter support, and so much more.
-            I am now the ongoing maintainer when GDT needs updates or changes -
-            most recently a tracking pixel for marketing campaigns. Thank you to
-            Jason and his team for their support!
+            I helped to build this site in Gatsby / React JS, with social
+            plugins, a contact form, custom theming, newsletter support, and so
+            much more. I am now the ongoing maintainer when GDT needs updates or
+            changes - most recently a tracking pixel for marketing campaigns.
+            Thank you to Jason and his team for their support!
             <Typography className={classes.projectDescriptions}>
               Please feel free to click on the box below to learn more about a
               fantastic partner at Grey Duct Technologies, and see their site.
@@ -84,27 +84,27 @@ export default function Projects() {
         </Box>
         <Box className={classes.boxes}>
           <Typography className={classes.projectDescriptions}>
-            This is the second capstone I completed in my education, a class
-            based React color-picker / custom palette creator. This project
-            showed me several new concepts, such as state management and
-            lifecycle in a CRA. We employed chroma-js as well as several new
-            resources from npm through this course. It utilizes localstorage
-            instead of a database, and was deployed via
-            create-react-app-buildpack. Hosted on Heroku.
+            Quantum Martial Arts is a client whose website I built on WordPress,
+            and deployed via Lightsail on AWS. Designed with extensibility in
+            mind and a desire to ensure that multiple dojangs (gyms) are given
+            the information they need for ongoing training as well as
+            informational purposes. We will likely keep developing new uses for
+            this site over time.
             <Typography className={classes.projectDescriptions}>
-              React Colors as learned from Colt Steele's Modern React Bootcamp
-              on Udemy. Click the image to see the project. Please note that
-              these are free servers, and take a few moments to load.
+              Just as I encourage all my friends and family to do, please
+              explore what Grand Master Fred Baker's Quantum Martial Arts has to
+              offer. I highly recommend his classes and hope to continue to work
+              in the program as well as on this project for a long while.
             </Typography>
             <Button className={classes.projectButtons}>
               <a
                 className={classes.projectLinks}
-                href="https://reactcolors55401.herokuapp.com/"
+                href="https://quantummartialarts.net/"
               >
                 <img
                   className={classes.projectImage}
                   src={reactcolors}
-                  alt="react colors project"
+                  alt="quantum martial arts"
                 />
               </a>
             </Button>
