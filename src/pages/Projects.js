@@ -21,6 +21,34 @@ export default function Projects() {
         </Box>
         <Box className={classes.boxes}>
           <Typography className={classes.projectDescriptions}>
+            Quantum Martial Arts is a client whose website I built on WordPress,
+            and deployed via Lightsail on AWS. Designed with extensibility in
+            mind and a desire to ensure that multiple dojangs (gyms) are given
+            the information they need for ongoing training as well as
+            informational purposes. We will likely keep developing new uses for
+            this site over time.
+            <Typography className={classes.projectDescriptions}>
+              Just as I encourage all my friends and family to do, please
+              explore what Grand Master Fred Baker's Quantum Martial Arts has to
+              offer. I highly recommend his classes and hope to continue to work
+              in the program as well as on this project for a long while.
+            </Typography>
+            <Button className={classes.projectButtons}>
+              <a
+                className={classes.projectLinks}
+                href="https://quantummartialarts.net/"
+              >
+                <img
+                  className={classes.projectImage}
+                  src={reactcolors}
+                  alt="quantum martial arts"
+                />
+              </a>
+            </Button>
+          </Typography>
+        </Box>
+        <Box className={classes.boxes}>
+          <Typography className={classes.projectDescriptions}>
             An ongoing partner from mid 2021 has been Grey Duct Technologies.{" "}
             <a
               style={{ textDecoration: "none", color: "black" }}
@@ -76,34 +104,6 @@ export default function Projects() {
                   className={classes.projectImage}
                   src={barefaced}
                   alt="barefaced esthetic studio"
-                />
-              </a>
-            </Button>
-          </Typography>
-        </Box>
-        <Box className={classes.boxes}>
-          <Typography className={classes.projectDescriptions}>
-            Quantum Martial Arts is a client whose website I built on WordPress,
-            and deployed via Lightsail on AWS. Designed with extensibility in
-            mind and a desire to ensure that multiple dojangs (gyms) are given
-            the information they need for ongoing training as well as
-            informational purposes. We will likely keep developing new uses for
-            this site over time.
-            <Typography className={classes.projectDescriptions}>
-              Just as I encourage all my friends and family to do, please
-              explore what Grand Master Fred Baker's Quantum Martial Arts has to
-              offer. I highly recommend his classes and hope to continue to work
-              in the program as well as on this project for a long while.
-            </Typography>
-            <Button className={classes.projectButtons}>
-              <a
-                className={classes.projectLinks}
-                href="https://quantummartialarts.net/"
-              >
-                <img
-                  className={classes.projectImage}
-                  src={reactcolors}
-                  alt="quantum martial arts"
                 />
               </a>
             </Button>
