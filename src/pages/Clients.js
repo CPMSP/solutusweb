@@ -5,6 +5,7 @@ import { useStyles } from "../styles/pageStyles";
 import qma from "../public/qmahome.png";
 import gdt from "../public/gdt.png";
 import barefaced from "../public/barefaced.png";
+import stargazer from "../public/stargazerllc.png";
 
 export default function Clients() {
   const classes = useStyles();
@@ -104,6 +105,55 @@ export default function Clients() {
                   className={classes.projectImage}
                   src={barefaced}
                   alt="barefaced esthetic studio"
+                />
+              </a>
+            </Button>
+          </Typography>
+        </Box>
+        <Box className={classes.boxes}>
+          <Typography className={classes.projectDescriptions}>
+            Stargazer LLC is an ongoing partner with Solutus to source work for
+            various clients, one of which is listed above; Gray Duct Tech. We
+            also collaborated on other sites, such as:
+            <ul>
+              <li className={classes.stargazerLI}>
+                <a
+                  className={[classes.projectLinks, classes.stargazerLinks]}
+                  href="https://minnesnowii.com/"
+                >
+                  Minnesnowii Shave Ice
+                </a>
+              </li>
+              <li className={classes.stargazerLI}>
+                <a
+                  className={[classes.projectLinks, classes.stargazerLinks]}
+                  href="http://3.238.105.58/"
+                >
+                  Pearson Trucking
+                </a>
+              </li>
+              <li className={classes.stargazerLI}>
+                <a
+                  className={[classes.projectLinks, classes.stargazerLinks]}
+                  href="https://shakopeecandle.com/"
+                >
+                  Shakopee Candle Company
+                </a>
+              </li>
+            </ul>
+            <Typography className={classes.projectDescriptions}>
+              Click to follow to Stargazer's website, or on the links above to
+              see work completed.
+            </Typography>
+            <Button className={classes.projectButtons}>
+              <a
+                className={classes.projectLinks}
+                href="https://stargazerllc.com/"
+              >
+                <img
+                  className={classes.projectImage}
+                  src={stargazer}
+                  alt="stargazer llc"
                 />
               </a>
             </Button>
