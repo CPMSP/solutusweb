@@ -6,9 +6,9 @@ import qma from "../public/qmahome.png";
 import gdt from "../public/gdt.png";
 import barefaced from "../public/barefaced.png";
 
-export default function Projects() {
+export default function Clients() {
   const classes = useStyles();
-  document.title = "Projects";
+  document.title = "Clients";
 
   return (
     <div className={classes.root}>
@@ -16,7 +16,7 @@ export default function Projects() {
       <Container className={classes.container}>
         <Box className={classes.boxes}>
           <Typography className={classes.header}>
-            <span className={classes.hypetag}>Projects</span>
+            <span className={classes.hypetag}>Clients and Partners</span>
           </Typography>
         </Box>
         <Box className={classes.boxes}>
