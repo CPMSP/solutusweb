@@ -125,7 +125,10 @@ export default function Clients() {
                 </a>
               </li>
               <li className={classes.stargazerLI}>
-                <a className={classes.projectLinks} href="http://3.238.105.58/">
+                <a
+                  className={classes.projectLinks}
+                  href="https://www.pearsontruckinginc.com/"
+                >
                   Pearson Trucking
                 </a>
               </li>
