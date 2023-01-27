@@ -118,23 +118,20 @@ export default function Clients() {
             <ul className={classes.sgUL}>
               <li className={classes.stargazerLI}>
                 <a
-                  className={[classes.projectLinks, classes.stargazerLinks]}
+                  className={classes.projectLinks}
                   href="https://minnesnowii.com/"
                 >
                   Minnesnowii Shave Ice
                 </a>
               </li>
               <li className={classes.stargazerLI}>
-                <a
-                  className={[classes.projectLinks, classes.stargazerLinks]}
-                  href="http://3.238.105.58/"
-                >
+                <a className={classes.projectLinks} href="http://3.238.105.58/">
                   Pearson Trucking
                 </a>
               </li>
               <li className={classes.stargazerLI}>
                 <a
-                  className={[classes.projectLinks, classes.stargazerLinks]}
+                  className={classes.projectLinks}
                   href="https://shakopeecandle.com/"
                 >
                   Shakopee Candle Company

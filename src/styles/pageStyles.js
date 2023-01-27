@@ -90,7 +90,6 @@ export const useStyles = makeStyles((theme) => ({
     marginTop: "2rem",
   },
   projectLinks: {
-    textDecoration: "none",
     color: "black",
   },
   sgUL: {
@@ -99,11 +98,8 @@ export const useStyles = makeStyles((theme) => ({
     padding: 0,
   },
   stargazerLI: {
-    color: "black",
+    padding: 5,
     alignItems: "start",
-  },
-  stargazerLinks: {
-    textDecoration: "underline",
   },
   speakerLink: {
     color: "black",
