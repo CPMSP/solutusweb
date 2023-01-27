@@ -93,8 +93,14 @@ export const useStyles = makeStyles((theme) => ({
     textDecoration: "none",
     color: "black",
   },
+  sgUL: {
+    listStyle: "none inside none",
+    border: "5px inset",
+    padding: 0,
+  },
   stargazerLI: {
-    listStyle: "none",
+    color: "black",
+    alignItems: "start",
   },
   stargazerLinks: {
     textDecoration: "underline",

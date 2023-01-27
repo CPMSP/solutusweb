@@ -115,7 +115,7 @@ export default function Clients() {
             Stargazer LLC is an ongoing partner with Solutus to source work for
             various clients, one of which is listed above; Gray Duct Tech. We
             also collaborated on other sites, such as:
-            <ul>
+            <ul className={classes.sgUL}>
               <li className={classes.stargazerLI}>
                 <a
                   className={[classes.projectLinks, classes.stargazerLinks]}
