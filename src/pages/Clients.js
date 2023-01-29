@@ -116,7 +116,7 @@ export default function Clients() {
             various clients, one of which is listed above; Gray Duct Tech. We
             also collaborated on other sites, such as:
             <ul className={classes.sgUL}>
-              <li className={classes.stargazerLI}>
+              <li className={classes.stargazerLI} key={1}>
                 <a
                   className={classes.projectLinks}
                   href="https://minnesnowii.com/"
@@ -124,7 +124,7 @@ export default function Clients() {
                   Minnesnowii Shave Ice
                 </a>
               </li>
-              <li className={classes.stargazerLI}>
+              <li className={classes.stargazerLI} key={2}>
                 <a
                   className={classes.projectLinks}
                   href="https://www.pearsontruckinginc.com/"
@@ -132,7 +132,7 @@ export default function Clients() {
                   Pearson Trucking
                 </a>
               </li>
-              <li className={classes.stargazerLI}>
+              <li className={classes.stargazerLI} key={3}>
                 <a
                   className={classes.projectLinks}
                   href="https://shakopeecandle.com/"
