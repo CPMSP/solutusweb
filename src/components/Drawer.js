@@ -21,7 +21,9 @@ const useStyles = makeStyles({
     color: "inherit",
     textDecoration: "none",
     width: "100%",
-    padding: "1rem",
+    paddingLeft: "2rem",
+    paddingRight: "2rem",
+    paddingTop: "0.5rem",
     "&:hover": {
       background: "grey",
       color: "white",
