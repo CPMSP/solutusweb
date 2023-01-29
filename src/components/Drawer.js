@@ -12,7 +12,6 @@ import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   list: {
-    width: "auto",
     height: "100%",
     color: "white",
     backgroundColor: "black",
@@ -20,10 +19,9 @@ const useStyles = makeStyles({
   listItem: {
     color: "inherit",
     textDecoration: "none",
-    width: "100%",
+    width: "80%",
     paddingLeft: "2rem",
     paddingRight: "2rem",
-    paddingTop: "0.5rem",
     "&:hover": {
       background: "grey",
       color: "white",
@@ -56,7 +54,7 @@ export default function TemporaryDrawer() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
+      <List style={{ flex: 1 }}>
         {["Main", "Clients", "About", "Contact"].map((text) => (
           <ListItem>
             <Link className={classes.listItem} to={text} button key={text}>
