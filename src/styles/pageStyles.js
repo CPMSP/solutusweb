@@ -43,8 +43,9 @@ export const useStyles = makeStyles((theme) => ({
   },
   boxes: {
     backgroundColor: "#f5f5f5",
-    borderWidth: "10px",
-    borderStyle: "outset",
+    borderWidth: "3px",
+    borderColor: "#000",
+    borderRadius: "1rem",
     marginBottom: "2rem",
     padding: "2rem",
   },

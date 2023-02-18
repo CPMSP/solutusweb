@@ -50,7 +50,7 @@ export default function Clients() {
         </Box>
         <Box className={classes.boxes}>
           <Typography className={classes.projectDescriptions}>
-            An ongoing partner from mid 2021 has been Grey Duct Technologies.{" "}
+            An ongoing client from mid 2021 has been Grey Duct Technologies.{" "}
             <a
               style={{ textDecoration: "none", color: "black" }}
               href="https://stargazerllc.com"
@@ -83,8 +83,8 @@ export default function Clients() {
         </Box>
         <Box className={classes.boxes}>
           <Typography className={classes.projectDescriptions}>
-            Barefaced Esthetic Studio is an ongoing customer that originally
-            built their site themselves in Weebly and asked for some guidance in
+            Barefaced Esthetic Studio is an ongoing client that originally built
+            their site themselves in Weebly and asked for some guidance in
             theming and routing. I was able to help in assuring that there
             weren't dead links and that their catalog was shoppable for
             customers. I also helped in ensuring that shipping and taxation
