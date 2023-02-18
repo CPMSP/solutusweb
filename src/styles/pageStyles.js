@@ -96,6 +96,9 @@ export const useStyles = makeStyles((theme) => ({
   sgUL: {
     listStyle: "none inside none",
     border: "5px inset",
+    borderRadius: "1rem",
+    width: "40%",
+    margin: "2rem auto",
     padding: 0,
   },
   stargazerLI: {
