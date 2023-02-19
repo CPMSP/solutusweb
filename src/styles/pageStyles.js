@@ -43,8 +43,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   boxes: {
     backgroundColor: "#f5f5f5",
-    borderWidth: "3px",
-    borderColor: "#000",
+    border: "3px solid #a7a2a9",
     borderRadius: "1rem",
     marginBottom: "2rem",
     padding: "2rem",
@@ -75,6 +74,8 @@ export const useStyles = makeStyles((theme) => ({
   },
   contactButton: {
     marginTop: "2rem",
+    border: "2px solid",
+    borderRadius: ".5rem",
   },
   contactLink: {
     textDecoration: "none",

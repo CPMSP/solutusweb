@@ -34,7 +34,7 @@ export default function Contact() {
           </Typography>
         </Box>
       </Container>
-      <Footer />
+      <Footer style={{ position: "absolute", bottom: 0, left: 0, right: 0 }} />
     </div>
   );
 }
