@@ -108,12 +108,4 @@ export const useStyles = makeStyles((theme) => ({
   speakerLink: {
     color: "black",
   },
-  footer: {
-    position: "absolute",
-    width: "100%",
-    right: 0,
-    bottom: 0,
-    left: 0,
-    textAlign: "center",
-  },
 }));

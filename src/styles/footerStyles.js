@@ -2,9 +2,16 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles({
   footerContainer: {
-    height: "5rem",
+    paddingTop: "3rem",
+    paddingBottom: "3rem",
     backgroundColor: "#333",
-    margin: "0 auto",
+  },
+  footerGrid: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+  },
+  footerBox: {
+    margin: "auto",
   },
   footerText: {
     color: "white",

@@ -7,7 +7,17 @@ export default function Footer() {
 
   return (
     <Box className={classes.footerContainer}>
-      <Typography className={classes.footerText}>Solutus LLC</Typography>
+      <Box className={classes.footerGrid}>
+        <Box className={classes.footerBox}>
+          <img src="../public/logocropped.png" alt="business logo" />
+        </Box>
+        <Box className={classes.footerBox}>
+          <Typography className={classes.footerText}>Solutus LLC</Typography>
+        </Box>
+        <Box className={classes.footerBox}>
+          <p>This is also a placeholder</p>
+        </Box>
+      </Box>
     </Box>
   );
 }
