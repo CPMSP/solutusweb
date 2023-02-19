@@ -103,8 +103,8 @@ export default function Main() {
             design options to deliver on your request.
           </Typography>
         </Box>
-        <Footer />
       </Container>
+      <Footer />
     </div>
   );
 }

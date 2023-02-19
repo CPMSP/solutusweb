@@ -33,8 +33,8 @@ export default function Contact() {
             </a>
           </Typography>
         </Box>
-        <Footer />
       </Container>
+      <Footer />
     </div>
   );
 }

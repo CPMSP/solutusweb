@@ -16,8 +16,8 @@ export default function NotFound() {
             404 - Page Not Found
           </Typography>
         </Box>
-        <Footer />
       </Container>
+      <Footer />
     </div>
   );
 }

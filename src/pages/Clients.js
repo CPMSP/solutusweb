@@ -160,8 +160,8 @@ export default function Clients() {
             </Button>
           </Typography>
         </Box>
-        <Footer />
       </Container>
+      <Footer />
     </div>
   );
 }
