@@ -6,6 +6,7 @@ import qma from "../public/qmahome.png";
 import gdt from "../public/gdt.png";
 import barefaced from "../public/barefaced.png";
 import stargazer from "../public/stargazerllc.png";
+import Footer from "../components/Footer";
 
 export default function Clients() {
   const classes = useStyles();
@@ -159,9 +160,7 @@ export default function Clients() {
             </Button>
           </Typography>
         </Box>
-        <Box mt={2}>
-          <Typography>Solutus LLC</Typography>
-        </Box>
+        <Footer />
       </Container>
     </div>
   );
